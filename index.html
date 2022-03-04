@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Curriculonamao - HOME</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.svg" alt="" width="64" height="64" class="nav__logo-img">
+                    Curriculonamao
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">Serviços</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#rating" class="nav__link">Avaiações</a>
+                        </li>
+                        <li class="nav__item">
+                            <button class="btn-curriculo"><a href="curriculo.html" class="nav__link">Curriculos</a></button>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="bx bx-x"></i>
+                    </div>
+
+                    <img src="assets/img/nav-light.svg" width="1000" height="542" alt="" class="nav__img">
+                    
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Them change button -->
+                    <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+                    <!--Toggle button-->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="bx bx-grid-alt"></i>
+                    </div> 
+                </div>    
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.svg" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Se mostre para o mundo,
+                            e as oportunidades vem
+                        </h1>
+                        <p class="home_description">
+                            O mercado está cheio de vagas, e nós te ajudamos a avançar na busca por emprego.
+                        </p>
+                        <a href="#" class="button">Comece agora mesmo</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="service section container" id="services">
+                <h2 class="section__title">
+                    Veja algumas de Nossas<br>Habilidades
+                </h2>
+
+                <div class="service__container grid">
+                    <div class="service__content">
+                        <img src="assets/img/tools.svg" alt="" class="service__img">
+                        <h3 class="service__title">Otimizados</h3>
+                        <p class="service__description">Otimizamos a entrega do CV</p>
+                    </div>
+                    <div class="service__content">
+                        <img src="assets/img/globe.svg" alt="" class="service__img">
+                        <h3 class="service__title">Global</h3>
+                        <p class="service__description">Entrega do seu CV em escala global</p>
+                    </div>
+                    <div class="service__content">
+                        <img src="assets/img/star.svg" alt="" class="service__img">
+                        <h3 class="service__title">Boa reputação</h3>
+                        <p class="service__description">Temos excelente reputação com empresas</p>
+                    </div>
+                    <div class="service__content">
+                        <img src="assets/img/radio.svg" alt="" class="service__img">
+                        <h3 class="service__title">Alerta de vagas</h3>
+                        <p class="service__description">Avisamos você sobre novas vagas</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== RATING ====================-->
+            <section class="rating section container" id="rating">
+                <h2 class="section__title">
+                    Nossos clientes
+                </h2>
+
+                <div class="rating__container">
+                    <div class="swiper rating-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="rating__card swiper-slide">
+                                <div class="rating__overlay"></div>
+
+                                <img src="assets/img/perfil1.jpg" width="500" alt="" class="rating__img">
+                                <h3 class="rating__name">Dona Clotilde</h3>
+                                <span class="rating__title">"Excelentes serviços"</span>
+
+                                <button class="button rating__button">
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                </button>
+                                
+                            </article>
+
+                            <article class="rating__card swiper-slide">
+                                <div class="rating__overlay"></div>
+
+                                <img src="assets/img/perfil2.jpg" width="500" alt="" class="rating__img">
+                                <h3 class="rating__name">Dona Clotilde</h3>
+                                <span class="rating__title">"Excelentes serviços"</span>
+
+                                <button class="button rating__button">
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bx-star rating__icon'></i>
+                                </button>
+                                
+                            </article>
+
+                            <article class="rating__card swiper-slide">
+                                <div class="rating__overlay"></div>
+
+                                <img src="assets/img/perfil3.jpg" width="500" alt="" class="rating__img">
+                                <h3 class="rating__name">Dona Clotilde</h3>
+                                <span class="rating__title">"Excelentes serviços"</span>
+
+                                <button class="button rating__button">
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                </button>
+                                
+                            </article>
+
+                            <article class="rating__card swiper-slide">
+                                <div class="rating__overlay"></div>
+
+                                <img src="assets/img/perfil4.jpg" width="500" alt="" class="rating__img">
+                                <h3 class="rating__name">Dona Clotilde</h3>
+                                <span class="rating__title">"Excelentes serviços"</span>
+
+                                <button class="button rating__button">
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star rating__icon'></i>
+                                    <i class='bx bxs-star-half rating__icon'></i>
+                                </button>
+                                
+                            </article>
+
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer section">
+                <div class="footer__container container grid">
+                    <div>
+                    <a href="#" class="footer__logo">
+                        <img src="assets/img/logo.svg" width="64" alt="" class="footer__logo-img"> 
+                        Curriculonamao
+                    </a>
+
+                    <p class="footer__description">
+                        Mudando a vida <br> de muitos!
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Nossos Serviços</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Preço</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Descontos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Modelos pronto</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Suporte</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Centro de Suporte</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Entre em contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Disponível em</h3>
+
+                    <div class="footer__aviables">
+                        <img src="assets/img/aviable1.png" alt="" class="footer__aviable-img">
+                        <img src="assets/img/aviable2.png" alt="" class="footer__aviable-img">
+                    </div>
+                </div>
+
+            </div>
+
+            <span class="footer__copy">&#169; curriculonamao. All rigths reserved</span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="" class="scrollup" id="scroll-up">
+            <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+        </a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
